@@ -10,9 +10,7 @@
   <modules>
     <module>capricasix-parent</module>
     <module>capricasix-trajectory-planner</module>
-<!--
     <module>capricasix-genetic</module>
--->
   </modules>
 
 </project>
