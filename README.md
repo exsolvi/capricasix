@@ -1,4 +1,4 @@
 capricasix
 ==========
 
-Caprica six is six leged robot powered by genetic algorithms
+Caprica six is six legged robot powered by genetic algorithms
