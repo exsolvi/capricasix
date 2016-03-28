@@ -15,4 +15,53 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
  
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.osgi</groupId>
+        <artifactId>org.osgi.core</artifactId>
+        <version>6.0.0</version>
+      </dependency>
+      <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-api</artifactId>
+        <version>1.7.13</version>
+      </dependency>
+      <dependency>
+        <groupId>se.exsolvi.capricasix</groupId>
+        <artifactId>capricasix-parent</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+      </dependency>
+      <dependency>
+        <groupId>se.exsolvi.capricasix</groupId>
+        <artifactId>capricasix-servo-control</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+      </dependency>
+      <dependency>
+        <groupId>se.exsolvi.capricasix</groupId>
+        <artifactId>capricasix-trajectory-planner</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+      </dependency>
+      <dependency>
+        <groupId>se.exsolvi.capricasix</groupId>
+        <artifactId>capricasix-joystick-controller</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+      </dependency>
+      <dependency>
+        <groupId>se.exsolvi.capricasix</groupId>
+        <artifactId>capricasix-communication</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+      </dependency>
+      <dependency>
+        <groupId>se.exsolvi.capricasix</groupId>
+        <artifactId>capricasix-genetic</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+      </dependency>
+      <dependency>
+        <groupId>se.exsolvi.capricasix</groupId>
+        <artifactId>capricasix-tray</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
 </project>
