@@ -9,8 +9,13 @@
 
   <modules>
     <module>capricasix-parent</module>
+    <module>capricasix-servo-control</module>
     <module>capricasix-trajectory-planner</module>
+    <module>capricasix-joystick-controller</module>
+    <module>capricasix-communication</module>
     <module>capricasix-genetic</module>
+    <module>capricasix-tray</module>
+    <module>capricasix-assembly</module>
   </modules>
 
 </project>
