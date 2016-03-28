@@ -15,17 +15,21 @@
     <dependency>
       <groupId>org.osgi</groupId>
       <artifactId>org.osgi.core</artifactId>
-      <version>5.0.0</version>
     </dependency>
+<!--
     <dependency>
       <groupId>com.pi4j</groupId>
       <artifactId>pi4j-core</artifactId>
       <version>0.0.5</version>
     </dependency>
+-->
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-api</artifactId>
-      <version>1.7.7</version>
+    </dependency>
+    <dependency>
+      <groupId>se.exsolvi.capricasix</groupId>
+      <artifactId>capricasix-servo-control</artifactId>
     </dependency>
   </dependencies>
 
